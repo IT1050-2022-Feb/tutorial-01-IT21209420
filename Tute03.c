@@ -14,11 +14,11 @@ sum = 1+2+3+...+10 = 55 */
 #include <stdio.h>
 int main() {
   
-  int number , i  , sum = 0 ;
+  int number , i  , sum = 0 ; //declare variables
   
-  for(i=1 ; i<= n ; ++i)
+  for(i=1 ; i<= n ; ++i) //number times loop
   {
-    sum = sum + i;
+    sum = sum + i; //calcualte sum
   }
   
   return 0;
