@@ -5,7 +5,13 @@
 #include <stdio.h>
 
 int main() {
-  
+   float mark1 , mark2 , sum , avg; //declarinng variables
+   
+   sum = markq + mark2; //find sum
+   avg = sum / 2; //find average
+   
+   printf("Average is : %.2f " , avg ); //print average
+   
   return 0;
 }
 
