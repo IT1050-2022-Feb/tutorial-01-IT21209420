@@ -21,19 +21,19 @@ Amount = 30 x 50 + (50-30) x 40 = 2300*/
 int main() {
   
   float distance ,rent;
-  printf("Enter distance : ");
-  scanf("%f" , &distance);
+  printf("Enter distance : ");//promt to enter distance
+  scanf("%f" , &distance);//input distance
   
   if(distance <= 30 && distance >= 0 )
-    rent = distance * 50;
+    rent = distance * 50;//calc rent
   else if(distance > 30)
-    rent = distance * 50 + (distance-30) * 40;
+    rent = distance * 50 + (distance-30) * 40;//cal rent
   else
   {
-    printf("Invalid distance");
+    printf("Invalid distance");//promt
     return -1;
   }
   
-  printf("Rent is  : %.2f ", rent);
+  printf("Rent is  : %.2f ", rent);//display rent
   return 0;
 }
