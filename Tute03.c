@@ -14,6 +14,13 @@ sum = 1+2+3+...+10 = 55 */
 #include <stdio.h>
 int main() {
   
+  int number , sum = 0 ;
+  
+  for(i=1 ; i<= n ; ++i)
+  {
+    sum = sum + i;
+  }
+  
   return 0;
 }
 
