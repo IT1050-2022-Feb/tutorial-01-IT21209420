@@ -15,11 +15,16 @@ sum = 1+2+3+...+10 = 55 */
 int main() {
   
   int number , i  , sum = 0 ; //declare variables
+
+  printf("Enter a number : ");
+  scanf("%d" , &number);
   
-  for(i=1 ; i<= n ; ++i) //number times loop
+  for(i=1 ; i<= number ; ++i) //number times loop
   {
     sum = sum + i; //calcualte sum
   }
+
+  printf("Sum is : %d" , sum );
   
   return 0;
 }

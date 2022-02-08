@@ -27,7 +27,7 @@ int main() {
   if(distance <= 30 && distance >= 0 )
     rent = distance * 50;//calc rent
   else if(distance > 30)
-    rent = distance * 50 + (distance-30) * 40;//cal rent
+    rent = 30 * 50 + (distance - 30) * 40;//call rent
   else
   {
     printf("Invalid distance");//promt
